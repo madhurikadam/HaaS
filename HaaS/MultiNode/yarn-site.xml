@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<!-- Put site-specific property overrides in this file. -->
+
+
+<configuration>
+<property>
+	<name>yarn.resourcemanager.resource-tracker.address</name>
+	<value>HadoopMaster:8025</value>
+</property>
+<property>
+        <name>yarn.resourcemanager.scheduler.address</name>
+        <value>HadoopMaster:8035</value>
+</property>
+<property>
+        <name>yarn.resourcemanager.address</name>
+        <value>HadoopMaster:8050</value>
+</property>
+
+</configuration>

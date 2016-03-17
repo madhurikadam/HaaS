@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<!-- Put site-specific property overrides in this file. -->
+
+<configuration>
+<property>
+  <name>mapred.job.tracker</name>
+  <value>HadoopMaster:5431</value>
+  <description>The host and port that the MapReduce job tracker runs
+  at.  If "local", then jobs are run in-process as a single map
+  and reduce task.
+  </description>
+</property>
+<property>
+  <name>mapred.framework.name</name>
+  <value>yarn</value>
+  <description>The host and port that the MapReduce job tracker runs
+  at.  If "local", then jobs are run in-process as a single map
+  and reduce task.
+  </description>
+</property>
+<property>
+  <name>mapred.hosts.exclude</name>
+  <value>/usr/local/hadoop/etc/hadoop/dfs.exclude</value>
+</property>
+
+
+</configuration>
